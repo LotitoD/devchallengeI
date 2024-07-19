@@ -1,0 +1,57 @@
+.body {
+    background-color: aliceblue;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: white;
+    width: 368px;
+    border-radius: 20px;
+    box-shadow: 0px 30px 100px 0px rgba(11, 15, 27, 0.10);
+    transform: translate(50%, 50%);
+}
+
+.main {
+    margin: 16px;
+}
+
+.article {
+    background-color: aqua;
+    color: blue;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 16px;
+    font-size: 13px;
+}
+
+.titulo {
+    font-size: 20px;
+    margin-top: 16px;    
+}
+
+.parrafo {
+    opacity: 60%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.end {
+    opacity: 60%;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+img {
+    width: 336px;
+    height: 152px;
+    border-radius: 20px;
+}
